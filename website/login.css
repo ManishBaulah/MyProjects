@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    background-repeat:no-repeat;
+    height: 100vh;
+
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: white;
+    width: 400px;
+    border-radius: 10px;
+    transform: translate(-50%,-50%); /*will adjust the box to the center according to the window size*/
+
+}
+
+.wrapper h1{
+    text-align: center;
+    border-bottom: 1px solid rgb(176, 172, 172);
+    padding-bottom: 20px;
+}
+
+.wrapper form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .box input{
+    width: 225px;
+    border: 2px solid rgb(241, 206, 239);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.wrapper .but button{
+    width: 75px;
+    height: 25px;
+    background:rgb(247, 237, 245);
+    border-radius: 5px;
+    border: none;
+    color: black;
+}
+
+.wrapper .but button:hover{
+    background:#9665ab;
+    cursor: pointer;
+}
+
+.wrapper .member{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wrapper .member a{
+    padding:15px 0 0 5px;
+}
+.wrapper .member a:hover{
+    font-size: 17px;
+}
